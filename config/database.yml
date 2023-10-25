@@ -21,6 +21,7 @@ default: &default
 
 development:
   <<: *default
+  database: blog
   username: postgres
   password: karim
 
@@ -40,7 +41,7 @@ development:
 
   # The TCP port the server listens on. Defaults to 5432.
   # If your server runs on a different port number, change accordingly.
-  #port: 5432
+  port: 5432
 
   # Schema search path. The server defaults to $user,public
   #schema_search_path: myapp,sharedapp,public
