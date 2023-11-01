@@ -2,14 +2,14 @@ require 'rails_helper'
 
 RSpec.describe "Posts", type: :request do
   describe 'GET /posts' do
-    it 'return success for /posts' do
+    it 'Pass tests for posts' do
       get '/users/343/posts'
       expect(response.status).to eq(200)
       expect(response.body).to include('List of all posts')
       expect(response).to render_template(:index)
     end
 
-    it 'return success for /posts/:user_id' do
+    it 'pass tests for post#show' do
       get '/users/23/posts/234'
       expect(response.status).to eq(200)
       expect(response.body).to include('List of current')
