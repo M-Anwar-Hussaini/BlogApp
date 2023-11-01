@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe "Posts", type: :request do
+RSpec.describe 'Posts', type: :request do
   describe 'GET /posts' do
     it 'Pass tests for posts' do
       get '/users/343/posts'
