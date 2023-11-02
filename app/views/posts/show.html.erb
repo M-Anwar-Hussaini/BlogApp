@@ -1,13 +1,21 @@
-<div>
-  <h1>Post #<%= @post.id %> by <%= @post.author.name %></h1>
-  <p><%=@post.text %></p>
-</div>
+<div class="user-container">
+  <section class="bordered">
+    <div class="even-columns">
+      <p>Post #<%= @post.id %> by <%= @post.author.name %></p>
+      <p>Comments: <%= @post.comments_counter %>, Likes: <%= @post.likes_counter %></p>
+    </div>
 
-<div>
-  <h2>Comments</h2>
-  <ul>
-    <%@post.comments do |comment| %>
-      <li><strong><%=comment.user.name %></strong><%=comment.text %></li>
+    <br>
+    <br>
+  </section>
+
+  <section class="comments bordered">
+    <h4>Comments: </h4>
+    <% @post.comments.each do |comment| %>
+      <p>
+        <strong><%= comment.user.name %></strong>
+        <span><%= comment.text %></span>
+      </p>
     <% end %>
-  </ul>
+  </section>
 </div>

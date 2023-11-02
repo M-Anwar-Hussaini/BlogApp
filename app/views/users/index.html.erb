@@ -1,9 +1,15 @@
-<h1>List of all static users:</h1>
-<ul>
+<div class="user-container">
   <% @users.each do |user| %>
-    <li>
-      <h3><%= user.name %></h3>
-      <p><strong>Number of posts: </strong> <%= user.posts_counter %></p>
-    </li>
+    <div class="user-wrapper">
+      <div class="photo-box">
+        <img class="user-img" src="
+        <% user.photo %>" alt="<%= user.name %>">
+      </div>
+
+      <div class="text-box">
+        <h3><%= user.name %></h3>
+        <p>Number of posts: <%= user.posts_counter %></p>
+      </div>
+    </div>
   <% end %>
-</ul>
+</div>
