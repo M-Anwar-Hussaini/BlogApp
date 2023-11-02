@@ -1,4 +1,21 @@
-<h1>Details of current user</h1>
-<p><strong>Name:</strong> User 1</p>
-<p><strong>Bio:</strong> Description of user 1</p>
-<p><strong>Posts Counter:</strong> 12</p>
+<div>
+  <h1><%= @user.name %></h1>
+  <p><strong>Number of posts</strong>: <%= @user.posts_counter %></p>
+</div>
+
+<div>
+  <h2>Bio</h2>
+  <p>
+    <%= @user.bio %>
+  </p>
+</div>
+
+<div>
+  <h2>Posts: </h2>
+  <% @user.posts.each do |post| %>
+    <h3>Post # <%= post.id %></h3>
+    <p>
+      <%= post.text %>
+    </p>
+  <% end %>
+</div>
