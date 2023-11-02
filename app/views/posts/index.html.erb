@@ -1,6 +1,21 @@
-<h1>List of all posts</h1>
-<ul>
-  <li>post 1</li>
-  <li>post 2</li>
-  <li>post 3</li>
-</ul>
+<div>
+  <h1><%= @user.name %></h1>
+  <p><strong>Number of Posts: </strong><%= @user.posts_counter %></p>
+  <ul>
+
+    <% @posts.each do |post| %>
+      <li>
+        <h4>Post # <%=post.id %></h4>
+        <%= post.text %>
+        <h4>Comments</h4>
+        <ul>
+          <% post.comments.each do |comment| %>
+            <%= comment.text %>
+          <% end %>
+
+        </ul>
+      </li>
+    <% end %>
+
+  </ul>
+</div>
