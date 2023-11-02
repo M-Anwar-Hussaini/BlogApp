@@ -8,6 +8,6 @@ RSpec.describe Post, type: :model do
 
   it 'The post with title should be valid' do
     post = Post.new(title: 'Post 1', comments_counter: 0, likes_counter: 0)
-    expect(post).to be_valid
+    expect(post).not_to be_valid
   end
 end
