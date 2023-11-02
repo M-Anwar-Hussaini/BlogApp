@@ -1,6 +1,13 @@
-<h1>List of current user's  posts</h1>
-<ul>
-  <li>post 1</li>
-  <li>post 2</li>
-  <li>post 3</li>
-</ul>
+<div>
+  <h1>Post #<%= @post.id %> by <%= @post.author.name %></h1>
+  <p><%=@post.text %></p>
+</div>
+
+<div>
+  <h2>Comments</h2>
+  <ul>
+    <%@post.comments do |comment| %>
+      <li><strong><%=comment.user.name %></strong><%=comment.text %></li>
+    <% end %>
+  </ul>
+</div>
