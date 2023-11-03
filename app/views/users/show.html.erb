@@ -1,4 +1,32 @@
-<h1>Details of current user</h1>
-<p><strong>Name:</strong> User 1</p>
-<p><strong>Bio:</strong> Description of user 1</p>
-<p><strong>Posts Counter:</strong> 12</p>
+<div class="user-container">
+  <div class="user-wrapper">
+    <div class="photo-box bordered">
+      <img class="user-img" src="
+        <% @user.photo %>" alt="<%= @user.name %>">
+    </div>
+
+    <div class="text-box bordered">
+      <h3><%= @user.name %></h3>
+      <p>Number of posts: <%= @user.posts_counter %></p>
+    </div>
+  </div>
+
+  <section class="bio bordered">
+    <h2>BIO</h2>
+    <p class="bio-text"><%= @user.bio %></p>
+  </section>
+
+
+  <section>
+    <% @user.recent_posts.each_with_index do |post, index| %>
+      <div class="post bordered">
+        <h3>Post #<%= (index + 1) %></h3>
+        <p><%= post.text %></p>
+        <p class="right">Comments: <%= post.comments_counter %>, Likes: <%= post.likes_counter %></p>
+      </div>
+    <% end %>
+  </section>
+
+  <%= button_to "See All Posts", user_posts_path(@user), method: :get, class: "button" %>
+</div>
+

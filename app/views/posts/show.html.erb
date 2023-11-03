@@ -1,6 +1,21 @@
-<h1>List of current user's  posts</h1>
-<ul>
-  <li>post 1</li>
-  <li>post 2</li>
-  <li>post 3</li>
-</ul>
+<div class="user-container">
+  <section class="bordered">
+    <div class="even-columns">
+      <p>Post #<%= @post.id %> by <%= @post.author.name %></p>
+      <p>Comments: <%= @post.comments_counter %>, Likes: <%= @post.likes_counter %></p>
+    </div>
+
+    <br>
+    <br>
+  </section>
+
+  <section class="comments bordered">
+    <h4>Comments: </h4>
+    <% @post.comments.each do |comment| %>
+      <p>
+        <strong><%= comment.user.name %></strong>
+        <span><%= comment.text %></span>
+      </p>
+    <% end %>
+  </section>
+</div>
