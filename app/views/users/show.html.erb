@@ -18,7 +18,7 @@
 
 
   <section>
-    <% @user.posts.each_with_index do |post, index| %>
+    <% @user.recent_posts.each_with_index do |post, index| %>
       <div class="post bordered">
         <h3>Post #<%= (index + 1) %></h3>
         <p><%= post.text %></p>
