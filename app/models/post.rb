@@ -1,5 +1,6 @@
-class Post < ApplicationRecord
+# frozen_string_literal: true
 
+class Post < ApplicationRecord
   belongs_to :user
   has_many :likes
   has_many :comments
@@ -19,5 +20,4 @@ class Post < ApplicationRecord
   def update_post_counter
     user.update(posts_counter: user.posts.count)
   end
-
 end

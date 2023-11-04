@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d159d542-d048-424b-886e-432d440707d1" name="Changes" comment="Apply functionality for the post form">
-      <change afterPath="$PROJECT_DIR$/app/views/comments/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/comments_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/comments_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/likes_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/likes_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/posts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/posts_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/posts/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/posts/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-    </list>
+    <list default="true" id="d159d542-d048-424b-886e-432d440707d1" name="Changes" comment="Write all views" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699096652304</updated>
-      <workItem from="1699096654399" duration="27492000" />
+      <workItem from="1699096654399" duration="27950000" />
     </task>
     <task id="LOCAL-00001" summary="Apply functionality for the post form">
       <option name="closed" value="true" />
@@ -77,7 +67,55 @@
       <option name="project" value="LOCAL" />
       <updated>1699120570419</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add the global current_user on application_controller.rb">
+      <option name="closed" value="true" />
+      <created>1699129986428</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699129986428</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add actions for commit controller">
+      <option name="closed" value="true" />
+      <created>1699130011095</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699130011095</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Modify the resources">
+      <option name="closed" value="true" />
+      <created>1699130026740</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699130026740</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add need actions for the post_controller">
+      <option name="closed" value="true" />
+      <created>1699130061971</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699130061971</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add actions for likes_controller.rb">
+      <option name="closed" value="true" />
+      <created>1699130080108</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699130080108</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Write all views">
+      <option name="closed" value="true" />
+      <created>1699130095996</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699130095996</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +124,12 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Apply functionality for the post form" />
-    <option name="LAST_COMMIT_MESSAGE" value="Apply functionality for the post form" />
+    <MESSAGE value="Add the global current_user on application_controller.rb" />
+    <MESSAGE value="Add actions for commit controller" />
+    <MESSAGE value="Modify the resources" />
+    <MESSAGE value="Add need actions for the post_controller" />
+    <MESSAGE value="Add actions for likes_controller.rb" />
+    <MESSAGE value="Write all views" />
+    <option name="LAST_COMMIT_MESSAGE" value="Write all views" />
   </component>
 </project>
