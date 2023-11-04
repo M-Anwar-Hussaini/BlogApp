@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
   root 'users#index'
-  resources :users do
-    resources :posts do
-      resources :comments
-      resources :likes
+  resources :users, only: [:index, :show] do
+    resources :posts, only: [:index, :show, :new, :create] do
+      resources :comments, only: [:create, :new]
+      resources :likes, only: [:create, :new]
     end
   end
 end
