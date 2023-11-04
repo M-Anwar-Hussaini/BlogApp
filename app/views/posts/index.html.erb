@@ -1,4 +1,4 @@
-<section >
+<section>
   <div class="container">
     <h1 class="text-bg-dark w-100">Profile of <%= @user.name %></h1>
     <div class="row p-3 gx-5">
@@ -15,7 +15,7 @@
 
 
 <div class="my-3">
-  <%=link_to 'Create post', new_user_post_path(@user), class: 'btn btn-warning' %>
+  <%= link_to 'Create post', new_user_post_path(@user), class: 'btn btn-warning' %>
 </div>
 <!--Bio-->
 <section>
@@ -31,23 +31,31 @@
   </div>
 </section>
 
-
+<br><br>
 <!--All Posts-->
-<section>
+<section class="mb-3">
   <div class="container border rounded p-4">
     <h2 class="mb-4">Recent Posts</h2>
     <ul class="list-group list-group-flush mb-5">
       <% @posts.each do |post| %>
-        <li class="list-group-item border-bottom">
+        <li class="list-group-item ">
           <h3>Title: <%= post.title %></h3>
           <p><%= post.text %></p>
-        </li>
 
-        <h4>Recent Comments</h4>
-        <% post.recent_comments.each do |comment| %>
-          <strong><%= comment.user.name %></strong>
-          <p><%= comment.text %></p>
-        <% end %>
+
+          <div class="d-flex justify-content-between align-items-center mb-2">
+
+            <%=link_to 'Create Comment', new_user_post_comment_path(@user, post) %>
+            <%=link_to 'View Post', user_post_path(@user, post) %>
+
+          </div>
+          <h6>Recent Comments</h6>
+          <% post.recent_comments.each do |comment| %>
+            <strong><%= comment.user.name %></strong>
+            <p><%= comment.text %></p>
+          <% end %>
+
+        </li>
 
 
       <% end %>
