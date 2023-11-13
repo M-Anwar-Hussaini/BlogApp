@@ -4,14 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3342810-e5b9-4c5a-bc98-47f47d9b7e80" name="Changes" comment="Add professional readme file">
-      <change afterPath="$PROJECT_DIR$/db/migrate/20231113051918_create_users.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20231113052101_create_posts.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20231113052433_create_comments.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20231113052444_create_likes.rb" afterDir="false" />
+    <list default="true" id="a3342810-e5b9-4c5a-bc98-47f47d9b7e80" name="Changes" comment="Add necessary files.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/comments_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/comments_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/likes_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/likes_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/posts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/posts_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/comments/_comment.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/comments/_comment.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/comments/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/comments/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/comments/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/comments/index.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/comments/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/comments/show.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/comments/show.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/likes/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/likes/_like.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/likes/_like.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/likes/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/likes/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/likes/index.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/likes/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/likes/show.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/likes/show.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/_post.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/_post.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/index.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/show.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/show.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/_user.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/_user.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/index.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/show.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20231113051918_create_users.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20231113051918_create_users.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20231113052101_create_posts.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20231113052101_create_posts.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +150,7 @@
       <workItem from="1699851661933" duration="437000" />
       <workItem from="1699852153006" duration="2563000" />
       <workItem from="1699854771132" duration="68000" />
-      <workItem from="1699854842305" duration="1109000" />
+      <workItem from="1699854842305" duration="3433000" />
     </task>
     <task id="LOCAL-00001" summary="Add professional readme file">
       <option name="closed" value="true" />
@@ -124,7 +160,23 @@
       <option name="project" value="LOCAL" />
       <updated>1699132779679</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add migrations">
+      <option name="closed" value="true" />
+      <created>1699856108824</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699856108824</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add necessary files.">
+      <option name="closed" value="true" />
+      <created>1699856129044</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699856129044</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +185,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add professional readme file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add professional readme file" />
+    <MESSAGE value="Add migrations" />
+    <MESSAGE value="Add necessary files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add necessary files." />
   </component>
 </project>
