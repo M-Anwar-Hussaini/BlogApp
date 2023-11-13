@@ -1,1 +1,4 @@
-<h1>Details of a specific post</h1>
+<div class="my-3">
+  <%= render 'layouts/post_details', post: @post %>
+  <%= render 'layouts/comments', comments: @post.comments %>
+</div>

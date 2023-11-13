@@ -1,1 +1,13 @@
-<h1>All Posts</h1>
+<%= render 'layouts/profile', user: @user %>
+
+<div>
+  <h2 class="mt-4">All Posts:</h2>
+  <% @user.posts.each do |post| %>
+    <div class="my-3">
+      <%= render 'layouts/post', post: post %>
+      <% if post.comments.length != 0 %>
+        <%= render 'layouts/comments', comments: post.recent_comments %>
+      <% end %>
+    </div>
+  <% end %>
+</div>

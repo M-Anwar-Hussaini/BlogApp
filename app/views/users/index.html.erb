@@ -1,1 +1,4 @@
-<h1>List of users</h1>
+<h1 class="mb-3">List of all users: </h1>
+<% @users.each do |u| %>
+  <%= render 'layouts/profile', user: u %>
+<% end %>

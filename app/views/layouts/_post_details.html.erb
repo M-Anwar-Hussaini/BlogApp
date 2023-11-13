@@ -1,0 +1,5 @@
+<div class="p-3 border border-dark">
+  <h1><%= "Post ##{post.id}: (#{post.title}) by #{post.author.name}" %></h1>
+  <p class="text-end mb-3 text-muted"><%= "Comments: #{post.comments_counter}, Likes: #{post.likes_counter}" %></p>
+  <p><%= post.text %></p>
+</div>
