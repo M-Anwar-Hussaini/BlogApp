@@ -2,7 +2,8 @@
   <h1><%= "Post ##{post.id}: (#{post.title}) by #{post.author.name}" %></h1>
   <p class="text-end mb-3 text-muted"><%= "Comments: #{post.comments_counter}, Likes: #{post.likes_counter}" %></p>
   <p class="mb-3"><%= post.text %></p>
-  <div class="text-end">
+  <div class="text-end d-flex gap-1">
+    <button class="ms-auto btn btn-primary">Like</button>
     <%= link_to 'Comment', new_user_post_comment_path(@user, @post), class: 'btn btn-warning' %>
   </div>
 </div>
