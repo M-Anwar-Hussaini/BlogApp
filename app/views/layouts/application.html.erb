@@ -12,6 +12,9 @@
 <body>
 <div class="container my-3">
   <%= link_to 'Home', users_path, class: 'btn btn-secondary ' %>
+  <% if notice %>
+    <%= render 'layouts/notice', notice: notice %>
+  <% end %>
   <%= yield %>
 </div>
 

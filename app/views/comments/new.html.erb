@@ -1,0 +1,6 @@
+<h1>Add new comment: </h1>
+<%= form_with(model: [@user, @post, @comment]) do |form| %>
+  <%=form.label :text %>
+  <%=form.text_area :text, class: 'form-control mb-3' %>
+  <%=form.submit class: 'btn btn-success' %>
+<% end %>

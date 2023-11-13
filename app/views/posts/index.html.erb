@@ -1,7 +1,8 @@
 <%= render 'layouts/profile', user: @user %>
 
-<div>
-  <h2 class="mt-4">All Posts:</h2>
+<div class="mt-4">
+  <%= link_to 'Add new post', new_user_post_path(@user), class: 'btn btn-secondary ms-auto' %>
+  <h2>All Posts:</h2>
   <% @user.posts.each do |post| %>
     <div class="my-3">
       <%= render 'layouts/post', post: post %>
