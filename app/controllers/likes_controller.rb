@@ -3,7 +3,7 @@ class LikesController < ApplicationController
     @like = Like.new(like_params)
 
     if @like.save
-      redirect_to @like.post, notice: "Post liked"
+      redirect_to @like.post, notice: 'Post liked'
     else
       render :new
     end
