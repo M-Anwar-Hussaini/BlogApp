@@ -1,25 +1,10 @@
-# frozen_string_literal: true
-
-names = %w[Ali Claudia Karim]
-photos = %w[https://avatars.githubusercontent.com/u/126192888?v=4 https://avatars.githubusercontent.com/u/97201255?v=4 https://avatars.githubusercontent.com/u/77242944?v=4]
-bios = [
-  'Frontend Web Developer | JavaScript | React | Redux | Looking for new opportunities',
-  "I'm a Full-Stack Software Developer. Passionate about creating innovative solutions and always open to new job opportunities",
-  'I’m a Full-Stack Software developer | Active learner | Adventurous. Stack: JavaScript, Ruby, Rails, React, Redux. Looking for job offers...'
+users = ['Reza Merzaie', 'Ali Baba Hussaini']
+photos = ['https://avatars.githubusercontent.com/u/76435157?v=4', 'https://avatars.githubusercontent.com/u/126192888?v=4']
+bio = [
+  "A software developer is an architect of the digital world, crafting intricate codes that bring ideas to life within the realm of technology. They are the creative minds behind the applications, systems, and platforms that power our modern lives. With a combination of technical prowess, problem-solving skills, and boundless imagination, these developers meticulously design, code, and test software to ensure it functions seamlessly. Their world revolves around deciphering complex problems and translating them into elegant, efficient solutions, often working in teams to create innovative, user-friendly products that push the boundaries of what's possible in the digital landscape.",
+  "A graphic designer is a visual storyteller, weaving narratives through the language of design and imagery. They're the magicians who turn ideas and concepts into captivating visual representations. With a blend of artistic flair, technical skill, and an innate understanding of aesthetics, they craft everything from logos and advertisements to entire brand identities. Armed with software proficiency and a keen eye for detail, graphic designers shape the way we perceive information, influencing our emotions and actions through their creations. Their canvas is vast, encompassing a multitude of mediums, and their work is often the bridge between ideas and their vivid, compelling manifestation in the world."
 ]
 
-
-names.length.times do |i|
-  post = Post.new(
-    title: "Title of user #{i + 1}",
-    text: "Some long text for user #{i + 1}"
-  )
-
-  user = User.new(
-    name: names[i],
-    photo: photos[i],
-    bio: bios[i]
-  )
-  user.posts << post
-  user.save
+2.times do |index|
+  User.create(name: users[index], photo: photos[index], bio: bio[index])
 end

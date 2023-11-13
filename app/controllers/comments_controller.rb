@@ -1,28 +1,29 @@
 class CommentsController < ApplicationController
+  before_action :set_user
   def new
-    @user = current_user
-    @post = Post.find(params[:post_id])
-    @comment = Comment.new
+    @comment = @post.comments.build
   end
 
   def create
-    @user = current_user
-    @comment = @user.comments.build(comment_params)
-    @post = @user.posts.find(params[:post_id])
+    @comment = @post.comments.build(comment_params)
+    @comment.user = @user
 
     if @comment.save
-      redirect_to user_post_path(@user, @post)
+      redirect_to user_post_path(@user, @post), notice: 'Comment was add successfully.'
     else
-      render :new
+      render :new, notice: 'There was a problem'
     end
   end
 
+
   private
 
+  def set_user
+    @user = User.find(params[:user_id])
+    @post = @user.posts.find(params[:post_id])
+  end
+
   def comment_params
-    params
-      .require(:comment)
-      .permit(:text)
-      .merge(post_id: params[:post_id])
+    params.require(:comment).permit(:text)
   end
 end

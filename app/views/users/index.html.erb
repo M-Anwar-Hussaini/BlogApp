@@ -1,16 +1,4 @@
-<section>
-  <div >
-    <h1>List of all users</h1>
-    <% @users.each do |user| %>
-      <div class="row p-3 gx-5">
-        <div class="col-3 border border-dark rounded">
-          <img src="<%= user.photo %>" alt="<%= user.name %>" class="img-thumbnail">
-        </div>
-        <div class="col ms-2 border border-dark rounded p-2">
-          <h3><%= link_to user.name, user_path(user) %></h3>
-          <p class="text-end"><strong>Number of posts: </strong><%= user.posts_counter %></p>
-        </div>
-      </div>
-    <% end %>
-  </div>
-</section>
+<h1 class="mb-3">List of all users: </h1>
+<% @users.each do |u| %>
+  <%= render 'layouts/profile', user: u %>
+<% end %>

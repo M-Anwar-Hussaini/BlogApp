@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3342810-e5b9-4c5a-bc98-47f47d9b7e80" name="Changes" comment="Add professional readme file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a3342810-e5b9-4c5a-bc98-47f47d9b7e80" name="Changes" comment="Add comment functionality." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,24 +27,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature/forms",
-    "last_opened_file_path": "D:/03. Projects/Rails/Friends",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.stylelint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ruby.rails.projectView.checked": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/resetting&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/03. Projects/Rails/BlogApp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
+    &quot;ruby.structure.view.model.defaults.configured&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\03. Projects\Rails\BlogApp\app\views\posts" />
+    </key>
+  </component>
   <component name="RubyModuleManagerSettings">
     <option name="blackListedRootsPaths">
       <list>
@@ -103,6 +108,10 @@
       <updated>1699132617572</updated>
       <workItem from="1699132621797" duration="710000" />
       <workItem from="1699165951824" duration="34000" />
+      <workItem from="1699851661933" duration="437000" />
+      <workItem from="1699852153006" duration="2563000" />
+      <workItem from="1699854771132" duration="68000" />
+      <workItem from="1699854842305" duration="23145000" />
     </task>
     <task id="LOCAL-00001" summary="Add professional readme file">
       <option name="closed" value="true" />
@@ -112,14 +121,69 @@
       <option name="project" value="LOCAL" />
       <updated>1699132779679</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add migrations">
+      <option name="closed" value="true" />
+      <created>1699856108824</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699856108824</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add necessary files.">
+      <option name="closed" value="true" />
+      <created>1699856129044</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699856129044</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Controllers routes are working.">
+      <option name="closed" value="true" />
+      <created>1699872180016</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699872180016</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add views for all things">
+      <option name="closed" value="true" />
+      <created>1699882893509</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699882893509</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add comment functinality">
+      <option name="closed" value="true" />
+      <created>1699895402855</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699895402855</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add comment functionality.">
+      <option name="closed" value="true" />
+      <created>1699898515616</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699898515616</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add professional readme file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add professional readme file" />
+    <MESSAGE value="Add migrations" />
+    <MESSAGE value="Add necessary files." />
+    <MESSAGE value="Controllers routes are working." />
+    <MESSAGE value="Add views for all things" />
+    <MESSAGE value="Add comment functinality" />
+    <MESSAGE value="Add comment functionality." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add comment functionality." />
   </component>
 </project>

@@ -1,16 +1,6 @@
-<h1>Create comment</h1>
-<%= form_with model: @comment, url: user_post_comments_path(@user, @post), local: true do |f| %>
-  <div>
-    <%= f.label :title %>
-    <%= f.text_field :title, class: 'form-control' %>
-  </div>
-  <div>
-    <%= f.label :text %>
-    <%= f.text_area :text, class: 'form-control' %>
-  </div>
-
-  <div>
-    <%= f.submit class: 'btn btn-warning' %>
-  </div>
+<h1>Add new comment: </h1>
+<%= form_with(model: [@user, @post, @comment]) do |form| %>
+  <%=form.label :text %>
+  <%=form.text_area :text, class: 'form-control mb-3 h-25' %>
+  <%=form.submit class: 'btn btn-success' %>
 <% end %>
-
