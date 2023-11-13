@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3342810-e5b9-4c5a-bc98-47f47d9b7e80" name="Changes" comment="Add professional readme file">
+      <change afterPath="$PROJECT_DIR$/db/migrate/20231113051918_create_users.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20231113052101_create_posts.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20231113052433_create_comments.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20231113052444_create_likes.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +37,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -44,6 +51,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
+    &quot;ruby.structure.view.model.defaults.configured&quot;: &quot;true&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -104,6 +112,9 @@
       <workItem from="1699132621797" duration="710000" />
       <workItem from="1699165951824" duration="34000" />
       <workItem from="1699851661933" duration="437000" />
+      <workItem from="1699852153006" duration="2563000" />
+      <workItem from="1699854771132" duration="68000" />
+      <workItem from="1699854842305" duration="1109000" />
     </task>
     <task id="LOCAL-00001" summary="Add professional readme file">
       <option name="closed" value="true" />
@@ -120,6 +131,7 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add professional readme file" />
     <option name="LAST_COMMIT_MESSAGE" value="Add professional readme file" />
   </component>
