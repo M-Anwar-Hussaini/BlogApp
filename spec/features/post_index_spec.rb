@@ -44,5 +44,4 @@ RSpec.describe 'Posts index page', type: :feature do
     expect(page).to have_content('Comment 2')
     expect(page).to have_content('Comment 3')
   end
-
 end

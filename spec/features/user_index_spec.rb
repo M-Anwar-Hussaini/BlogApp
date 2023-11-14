@@ -2,7 +2,8 @@ require 'rails_helper'
 
 RSpec.describe 'Users index page', type: :feature do
   before do
-    @anwar = User.create(name: 'Anwar Hussaini', photo: 'https://avatars.githubusercontent.com/u/131291114?v=4', bio: 'Full-Stak developer', posts_counter: 0)
+    @anwar = User.create(name: 'Anwar Hussaini', photo: 'https://avatars.githubusercontent.com/u/131291114?v=4',
+                         bio: 'Full-Stak developer', posts_counter: 0)
     visit users_path
   end
 
