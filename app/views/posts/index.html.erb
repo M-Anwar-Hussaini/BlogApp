@@ -5,7 +5,7 @@
   <h2>All Posts:</h2>
   <% @user.posts.each do |post| %>
     <div class="my-3">
-      <%= render 'layouts/post', post: post %>
+      <%= render 'post', post: post %>
       <% if post.comments.length != 0 %>
         <%= render 'layouts/comments', comments: post.recent_comments %>
       <% end %>

@@ -12,7 +12,7 @@
   <h2>Recent Posts:</h2>
   <% @user.recent_posts.each do |post| %>
     <div class="mt-3">
-      <%= render 'layouts/post', post: post %>
+      <%= render 'posts/post', post: post %>
     </div>
   <% end %>
 </div>
