@@ -15,7 +15,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "ruby.structure.view.model.defaults.configured": "true"
   }
 }]]></component>
   <component name="RunManager">
