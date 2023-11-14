@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3342810-e5b9-4c5a-bc98-47f47d9b7e80" name="Changes" comment="Add comment functionality." />
+    <list default="true" id="a3342810-e5b9-4c5a-bc98-47f47d9b7e80" name="Changes" comment="Add comment functionality.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_post.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/_post.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/index.html.erb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +37,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "feature/integration-tests",
     "last_opened_file_path": "D:/03. Projects/Rails/BlogApp",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.stylelint": "true",
@@ -112,6 +116,8 @@
       <workItem from="1699852153006" duration="2563000" />
       <workItem from="1699854771132" duration="68000" />
       <workItem from="1699854842305" duration="23659000" />
+      <workItem from="1699901149955" duration="233000" />
+      <workItem from="1699958756246" duration="3868000" />
     </task>
     <task id="LOCAL-00001" summary="Add professional readme file">
       <option name="closed" value="true" />
