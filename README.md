@@ -113,6 +113,11 @@ Open your web browser and go to http://localhost:3000 to access the Blog App.
 - GitHub: [@M-Anwar-Hussaini](https://github.com/M-Anwar-Hussaini/)
 - LinkedIn: [Anwar Hussaini](https://www.linkedin.com/in/anwar-hussaini/)
 
+👤 **Gumaro Monroy Vazquez**
+
+- GitHub: [@Movgto](https://github.com/Movgto)
+- LinkedIn: [Gumaro Monroy Vazquez](https://www.linkedin.com/in/gumaro-monroy-vazquez-1705aa165/)
+
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
