@@ -22,4 +22,8 @@ RSpec.describe 'Posts index page', type: :feature do
     profile = all('img')
     expect(profile.size).to eq(1)
   end
+
+  scenario 'I can see the users name.' do
+    expect(page).to have_content(@user.name)
+  end
 end
