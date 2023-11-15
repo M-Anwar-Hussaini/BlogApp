@@ -23,4 +23,10 @@ RSpec.describe 'Users show page', type: :feature do
     Like.create(user_id: @user.id, post_id: @post.id)
     visit user_post_path(@user, @post)
   end
+
+  scenario 'I can see the comment each commentor left.' do
+    expect(page).to have_content(@comment1.text)
+    expect(page).to have_content(@comment2.text)
+    expect(page).to have_content(@comment3.text)
+  end
 end
