@@ -29,4 +29,8 @@ RSpec.describe 'Users show page', type: :feature do
     expect(page).to have_content(@comment2.text)
     expect(page).to have_content(@comment3.text)
   end
+
+  scenario 'I can see the posts title.' do
+    expect(page).to have_content(@post.title)
+  end
 end
