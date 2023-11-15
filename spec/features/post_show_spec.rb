@@ -33,4 +33,8 @@ RSpec.describe 'Users show page', type: :feature do
   scenario 'I can see the posts title.' do
     expect(page).to have_content(@post.title)
   end
+
+  scenario 'I can see who wrote the post.' do
+    expect(page).to have_content(@user.name)
+  end
 end
