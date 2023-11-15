@@ -49,4 +49,8 @@ RSpec.describe 'Users show page', type: :feature do
   scenario 'I can see the posts body.' do
     expect(page).to have_content(@post.text)
   end
+  
+  scenario 'I can see the username of each commentor.' do
+    expect(page).to have_content(@user.name)
+  end
 end
