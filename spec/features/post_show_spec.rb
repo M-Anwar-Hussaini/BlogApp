@@ -45,4 +45,8 @@ RSpec.describe 'Users show page', type: :feature do
   scenario 'I can see how many likes it has.' do
     expect(page).to have_content('Likes: 3')
   end
+
+  scenario 'I can see the posts body.' do
+    expect(page).to have_content(@post.text)
+  end
 end
