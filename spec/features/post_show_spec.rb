@@ -1,5 +1,5 @@
 require 'rails_helper'
-​
+
 RSpec.describe 'Users show page', type: :feature do
   before(:each) do
     @user = User
@@ -10,14 +10,14 @@ RSpec.describe 'Users show page', type: :feature do
       .create(title: 'Post 1', text: 'Post 1 text',
               author: @user, comments_counter: 0,
               likes_counter: 0)
-    ​
+
     @comment1 = Comment
       .create(user_id: @user.id, post_id: @post.id, text: 'Comment 1')
     @comment2 = Comment
       .create(user_id: @user.id, post_id: @post.id, text: 'Comment 2')
     @comment3 = Comment
       .create(user_id: @user.id, post_id: @post.id, text: 'Comment 3')
-    ​
+
     Like.create(user_id: @user.id, post_id: @post.id)
     Like.create(user_id: @user.id, post_id: @post.id)
     Like.create(user_id: @user.id, post_id: @post.id)
