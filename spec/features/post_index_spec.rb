@@ -34,4 +34,8 @@ RSpec.describe 'Posts index page', type: :feature do
   scenario 'I can see a posts title.' do
     expect(page).to have_content(@post1.title)
   end
+
+  scenario 'I can see some of the posts body.' do
+    expect(page).to have_content(@post1.text)
+  end
 end
