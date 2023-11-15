@@ -49,4 +49,17 @@ RSpec.describe 'Posts index page', type: :feature do
       expect(page).to have_current_path(user_post_path(@user, @post1))
     end
   end
+
+
+  scenario 'I can see how many comments it has.' do
+    expect(page).to have_content("Comments: #{@post1.comments.count}")
+  end
+
+  scenario 'I can see how many likes it has.' do
+    expect(page).to have_content("Likes: #{@post1.likes.count}")
+  end
+
+  scenario 'I can a section for pagination.' do
+    expect(page).to have_content("Pagination")
+  end
 end
