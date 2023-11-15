@@ -17,4 +17,9 @@ RSpec.describe 'Posts index page', type: :feature do
 ​
     visit user_posts_path(@user)
   end
+
+  scenario 'I can see the users profile picture.' do
+    profile = all('img')
+    expect(profile.size).to eq(1)
+  end
 end
