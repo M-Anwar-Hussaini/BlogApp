@@ -38,4 +38,10 @@ RSpec.describe 'Posts index page', type: :feature do
   scenario 'I can see some of the posts body.' do
     expect(page).to have_content(@post1.text)
   end
+
+  scenario 'I can see the first comments on a post.' do
+    expect(page).to have_content('Comment 1')
+    expect(page).to have_content('Comment 2')
+    expect(page).to have_content('Comment 3')
+  end
 end
