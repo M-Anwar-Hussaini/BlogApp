@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d009e4c7-3124-490d-b523-c870506876dd" name="Changes" comment="Remove non ascii characters from the project." />
+    <list default="true" id="d009e4c7-3124-490d-b523-c870506876dd" name="Changes" comment="Remove non ascii characters from the project.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/_post.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/_post.html.erb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,7 +138,8 @@
       <option name="presentableId" value="Default" />
       <updated>1700033993434</updated>
       <workItem from="1700033999325" duration="309000" />
-      <workItem from="1700070449317" duration="1888000" />
+      <workItem from="1700070449317" duration="2850000" />
+      <workItem from="1700075771890" duration="313000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor the code.">
       <option name="closed" value="true" />
