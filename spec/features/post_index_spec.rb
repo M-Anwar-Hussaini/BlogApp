@@ -50,7 +50,6 @@ RSpec.describe 'Posts index page', type: :feature do
     end
   end
 
-
   scenario 'I can see how many comments it has.' do
     expect(page).to have_content("Comments: #{@post1.comments.count}")
   end
@@ -60,6 +59,6 @@ RSpec.describe 'Posts index page', type: :feature do
   end
 
   scenario 'I can a section for pagination.' do
-    expect(page).to have_content("Pagination")
+    expect(page).to have_content('Pagination')
   end
 end
