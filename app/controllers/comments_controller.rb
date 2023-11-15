@@ -15,11 +15,10 @@ class CommentsController < ApplicationController
     end
   end
 
-
   private
 
   def set_user
-    @user = User.find(params[:user_id])
+    @user = User.includes(posts: :comments).find(params[:user_id])
     @post = @user.posts.find(params[:post_id])
   end
 
