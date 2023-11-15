@@ -43,4 +43,10 @@ RSpec.describe 'Posts index page', type: :feature do
     expect(page).to have_content('Comment 2')
     expect(page).to have_content('Comment 3')
   end
+
+  scenario 'When I click on a post, it redirects me to that posts show page.' do
+    click_link "Post ##{@post1.id}" do
+      expect(page).to have_current_path(user_post_path(@user, @post1))
+    end
+  end
 end

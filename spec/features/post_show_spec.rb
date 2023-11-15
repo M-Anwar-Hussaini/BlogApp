@@ -53,4 +53,12 @@ RSpec.describe 'Users show page', type: :feature do
   scenario 'I can see the username of each commentor.' do
     expect(page).to have_content(@user.name)
   end
+
+  scenario 'I can see how many comments it has.' do
+    expect(page).to have_content("Comments: #{@post.comments.count}")
+  end
+
+  scenario 'I can see how many likes it has.' do
+    expect(page).to have_content("Likes: #{@post.likes.count}")
+  end
 end
