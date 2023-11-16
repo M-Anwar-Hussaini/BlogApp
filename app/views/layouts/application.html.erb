@@ -11,6 +11,11 @@
 
 <body>
 <div class="container my-3">
+  <div class="mb-3">
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+  </div>
+
   <%= link_to 'Home', users_path, class: 'btn btn-secondary ' %>
   <% if notice %>
     <%= render 'layouts/notice', notice: notice %>
