@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d009e4c7-3124-490d-b523-c870506876dd" name="Changes" comment="Update users_controller to match with devise">
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
+    <list default="true" id="d009e4c7-3124-490d-b523-c870506876dd" name="Changes" comment="Add alerts to the application.html.erb file.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/comments_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/comments_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/posts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/posts_controller.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +144,7 @@
       <workItem from="1700075771890" duration="962000" />
       <workItem from="1700133559977" duration="89000" />
       <workItem from="1700133652560" duration="606000" />
-      <workItem from="1700146534260" duration="4013000" />
+      <workItem from="1700146534260" duration="5023000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor the code.">
       <option name="closed" value="true" />
@@ -181,7 +178,47 @@
       <option name="project" value="LOCAL" />
       <updated>1700150555498</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add devise configuration to the user model">
+      <option name="closed" value="true" />
+      <created>1700150684017</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700150684017</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update schema.rb to add new fields for users.">
+      <option name="closed" value="true" />
+      <created>1700150746564</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700150746564</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update routes.rb to contain devise for users.">
+      <option name="closed" value="true" />
+      <created>1700150788951</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1700150788951</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add configuration files to the application_controller.rb file">
+      <option name="closed" value="true" />
+      <created>1700150847158</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1700150847158</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add alerts to the application.html.erb file.">
+      <option name="closed" value="true" />
+      <created>1700150885916</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1700150885916</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +231,11 @@
     <MESSAGE value="Add comment functionality." />
     <MESSAGE value="Add migration file to the users for devise." />
     <MESSAGE value="Update users_controller to match with devise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update users_controller to match with devise" />
+    <MESSAGE value="Add devise configuration to the user model" />
+    <MESSAGE value="Update schema.rb to add new fields for users." />
+    <MESSAGE value="Update routes.rb to contain devise for users." />
+    <MESSAGE value="Add configuration files to the application_controller.rb file" />
+    <MESSAGE value="Add alerts to the application.html.erb file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add alerts to the application.html.erb file." />
   </component>
 </project>
