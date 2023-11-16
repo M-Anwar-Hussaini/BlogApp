@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d009e4c7-3124-490d-b523-c870506876dd" name="Changes" comment="Remove non ascii characters from the project.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d009e4c7-3124-490d-b523-c870506876dd" name="Changes" comment="Update users_controller to match with devise">
       <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
@@ -148,7 +147,7 @@
       <workItem from="1700075771890" duration="962000" />
       <workItem from="1700133559977" duration="89000" />
       <workItem from="1700133652560" duration="606000" />
-      <workItem from="1700146534260" duration="3670000" />
+      <workItem from="1700146534260" duration="4013000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor the code.">
       <option name="closed" value="true" />
@@ -166,7 +165,23 @@
       <option name="project" value="LOCAL" />
       <updated>1700063916668</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add migration file to the users for devise.">
+      <option name="closed" value="true" />
+      <created>1700150516055</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700150516055</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update users_controller to match with devise">
+      <option name="closed" value="true" />
+      <created>1700150555498</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700150555498</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +192,8 @@
     <MESSAGE value="Add IDE files." />
     <MESSAGE value="Remove non ascii characters from the project." />
     <MESSAGE value="Add comment functionality." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add comment functionality." />
+    <MESSAGE value="Add migration file to the users for devise." />
+    <MESSAGE value="Update users_controller to match with devise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update users_controller to match with devise" />
   </component>
 </project>
