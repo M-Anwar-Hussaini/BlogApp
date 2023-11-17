@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d009e4c7-3124-490d-b523-c870506876dd" name="Changes" comment="refactor controller files to perform actions for the current logged in user." />
+    <list default="true" id="d009e4c7-3124-490d-b523-c870506876dd" name="Changes" comment="Fox linters errors.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,7 +142,7 @@
       <workItem from="1700075771890" duration="962000" />
       <workItem from="1700133559977" duration="89000" />
       <workItem from="1700133652560" duration="606000" />
-      <workItem from="1700146534260" duration="5467000" />
+      <workItem from="1700146534260" duration="6033000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor the code.">
       <option name="closed" value="true" />
@@ -222,7 +224,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700151731593</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Fox linters errors.">
+      <option name="closed" value="true" />
+      <created>1700152307343</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1700152307343</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +251,7 @@
     <MESSAGE value="Add configuration files to the application_controller.rb file" />
     <MESSAGE value="Add alerts to the application.html.erb file." />
     <MESSAGE value="refactor controller files to perform actions for the current logged in user." />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor controller files to perform actions for the current logged in user." />
+    <MESSAGE value="Fox linters errors." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fox linters errors." />
   </component>
 </project>
