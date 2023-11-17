@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d009e4c7-3124-490d-b523-c870506876dd" name="Changes" comment="Fox linters errors." />
+    <list default="true" id="d009e4c7-3124-490d-b523-c870506876dd" name="Changes" comment="Add role column to the users table.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/posts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/posts_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/_post_details.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/_post_details.html.erb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,7 +148,7 @@
       <workItem from="1700133559977" duration="89000" />
       <workItem from="1700133652560" duration="606000" />
       <workItem from="1700146534260" duration="6033000" />
-      <workItem from="1700205999014" duration="240000" />
+      <workItem from="1700205999014" duration="4719000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor the code.">
       <option name="closed" value="true" />
@@ -231,7 +238,23 @@
       <option name="project" value="LOCAL" />
       <updated>1700152307343</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Set up cancancan gem to the Gemfile">
+      <option name="closed" value="true" />
+      <created>1700208516687</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1700208516688</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add role column to the users table.">
+      <option name="closed" value="true" />
+      <created>1700208564409</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1700208564409</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +274,8 @@
     <MESSAGE value="Add alerts to the application.html.erb file." />
     <MESSAGE value="refactor controller files to perform actions for the current logged in user." />
     <MESSAGE value="Fox linters errors." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fox linters errors." />
+    <MESSAGE value="Set up cancancan gem to the Gemfile" />
+    <MESSAGE value="Add role column to the users table." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add role column to the users table." />
   </component>
 </project>
