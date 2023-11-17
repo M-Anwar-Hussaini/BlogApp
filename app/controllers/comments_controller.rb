@@ -6,10 +6,10 @@ class CommentsController < ApplicationController
 
   def create
     @comment = @post.comments.build(comment_params)
-    @comment.user = @user
+    @comment.user = current_user
 
     if @comment.save
-      redirect_to user_post_path(@user, @post), notice: 'Comment was add successfully.'
+      redirect_to user_post_path(current_user, @post), notice: 'Comment was add successfully.'
     else
       render :new, notice: 'There was a problem'
     end

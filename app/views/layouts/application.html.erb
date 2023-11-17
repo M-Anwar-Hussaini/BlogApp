@@ -15,6 +15,9 @@
   <% if notice %>
     <%= render 'layouts/notice', notice: notice %>
   <% end %>
+  <% if alert %>
+    <%= render 'layouts/notice', alert: notice %>
+  <% end %>
   <%= yield %>
 </div>
 
