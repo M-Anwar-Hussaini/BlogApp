@@ -8,10 +8,19 @@ Rails.application.routes.draw do
     end
   end
 
-  namespace :api, defaults: { format: :json } do
-    resources :sessions
-    resources :posts, only: [:index] do
-      resources :comments, only: [:index, :create]
+
+
+  namespace :api do
+    namespace :v1 do
+      resources :users do
+        resources :posts do
+          resources :comments
+        end
+      end
     end
   end
+
+  
+  
+
 end
