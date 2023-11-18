@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d009e4c7-3124-490d-b523-c870506876dd" name="Changes" comment="Add role column to the users table.">
+    <list default="true" id="d009e4c7-3124-490d-b523-c870506876dd" name="Changes" comment="Create the ability for authorization.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/posts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/posts_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/posts/_post_details.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/_post_details.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20231117080556_add_roll_to_user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20231117080556_add_roll_to_user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +145,7 @@
       <workItem from="1700133559977" duration="89000" />
       <workItem from="1700133652560" duration="606000" />
       <workItem from="1700146534260" duration="6033000" />
-      <workItem from="1700205999014" duration="4719000" />
+      <workItem from="1700205999014" duration="9921000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor the code.">
       <option name="closed" value="true" />
@@ -254,7 +251,47 @@
       <option name="project" value="LOCAL" />
       <updated>1700208564409</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Add admin method to the user model">
+      <option name="closed" value="true" />
+      <created>1700215870626</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1700215870626</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Perform the delete(destroy) method to the post_controller">
+      <option name="closed" value="true" />
+      <created>1700215905233</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1700215905233</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Fix the alert issue">
+      <option name="closed" value="true" />
+      <created>1700215956542</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1700215956542</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Add a button to the post view to delete a post.">
+      <option name="closed" value="true" />
+      <created>1700215999008</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1700215999008</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Create the ability for authorization.">
+      <option name="closed" value="true" />
+      <created>1700216032211</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1700216032211</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,6 +313,11 @@
     <MESSAGE value="Fox linters errors." />
     <MESSAGE value="Set up cancancan gem to the Gemfile" />
     <MESSAGE value="Add role column to the users table." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add role column to the users table." />
+    <MESSAGE value="Add admin method to the user model" />
+    <MESSAGE value="Perform the delete(destroy) method to the post_controller" />
+    <MESSAGE value="Fix the alert issue" />
+    <MESSAGE value="Add a button to the post view to delete a post." />
+    <MESSAGE value="Create the ability for authorization." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create the ability for authorization." />
   </component>
 </project>
