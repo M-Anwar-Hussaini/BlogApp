@@ -2,7 +2,7 @@ class PostsController < ApplicationController
   before_action :set_user
 
   def index
-    @posts = @user.posts
+    @posts = Post.includes(:user).where(user: @user).references(:user)
   end
 
   def show
