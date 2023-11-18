@@ -2,11 +2,11 @@ class PostsController < ApplicationController
   before_action :set_user
 
   def index
-    @posts = @user.posts
+    @posts = Post.includes(:user).where(user: @user).references(:user)
   end
 
   def show
-    @post = @user.posts.find(params[:id])
+    @post = Post.find(params[:id])
   end
 
   def new
@@ -24,7 +24,7 @@ class PostsController < ApplicationController
   end
 
   def destroy
-    @post = @user.posts.find(params[:id])
+    @post = Post.find(params[:id])
     @post.destroy!
     redirect_to user_posts_path(@user, @post), notice: 'The post was successfully deleted.'
   end
